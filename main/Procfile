@@ -1,1 +1,1 @@
-web: gunicorn hngtask.wsgi
+web gunicorn hngtask.wsgi
