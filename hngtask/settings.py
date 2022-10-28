@@ -34,6 +34,8 @@ CORS_ALLOWED_ORIGINS = [
     'https://fife.pythonanywhere.com',
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 # Application definition
 
