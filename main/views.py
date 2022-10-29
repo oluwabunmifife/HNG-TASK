@@ -13,6 +13,6 @@ def person_list(request):
     "slackUsername":"fife",
     "backend":True,
     "age": 19,
-    "bio":"I am an undergraduate, studying Computer Science, I am an up and coming"
+    "bio":"I am an undergraduate, studying Computer Science, I am an up and coming Django developer"
   }
     return JsonResponse(data, safe=False, headers=header)
