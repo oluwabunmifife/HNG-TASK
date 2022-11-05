@@ -7,3 +7,7 @@ class SlackPersonSerializer(serializers.ModelSerializer):
         fields = ['slackUsername', 'backend', 'age', 'bio']
 
         
+# class MathOperateSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = MathOperate
+#         fields = ['operation_type', 'x', 'y']

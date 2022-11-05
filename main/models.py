@@ -9,3 +9,8 @@ class SlackPerson(models.Model):
 
     def __str__(self):
         return self.slackUsername
+
+# class MathOperate(models.Model):
+#     operation_type = models.CharField(max_length=100)
+#     x = models.IntegerField()
+#     y = models.IntegerField()

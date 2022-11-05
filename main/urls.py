@@ -3,4 +3,5 @@ from main import views
 
 urlpatterns = [
     path('', views.person_list),
+    path('mathoperation', views.mathoperation),
 ]

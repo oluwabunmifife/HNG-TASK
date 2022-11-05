@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-dm#h0hafrlk+0=_%-#6re2oub=dc=vymdh-ywd#(j@-=-jz+bb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'main',
     'rest_framework',
     'whitenoise.runserver_nostatic',
+    'openai',
     
 ]
 
